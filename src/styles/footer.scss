@@ -1,0 +1,38 @@
+.footer {
+  font-weight: 100;
+  font-size: 10pt;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+
+  .footer-content {
+    margin-bottom: 2rem;
+    .buy {
+      h2 {
+        margin-left: 2.3rem;
+        font-size: 13pt;
+      }
+      ul {
+        li {
+          list-style: none;
+          margin-bottom: 0.5rem;
+          margin-top: 0.5rem;
+        }
+      }
+    }
+    .sell {
+      @extend .buy;
+    }
+    .stay-connected {
+      @extend .buy;
+    }
+    .about {
+      @extend .buy;
+    }
+  }
+
+  .copyright {
+    font-size: 9pt;
+    text-align: center;
+  }
+}

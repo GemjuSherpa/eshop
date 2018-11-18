@@ -1,25 +1,3 @@
-body {
-  font-family: sans-serif "Roboto";
-  background-color: #fafafa; }
-
-.nav {
-  width: 100%; }
-  .nav .topnav {
-    width: 100%;
-    font-weight: 200;
-    font-size: 10pt; }
-    .nav .topnav .left-nav .nav-items span, .nav .topnav .right-nav .nav-items span {
-      margin-left: 0.6rem;
-      margin-right: 0.6rem; }
-  .nav .brand-nav {
-    width: 100%;
-    font-size: 10pt; }
-    .nav .brand-nav .navbar .navbar-brand {
-      font-size: 26pt;
-      font-family: "zapfino";
-      font-style: bold;
-      color: #e91337; }
-
 .footer {
   font-weight: 100;
   font-size: 10pt;
